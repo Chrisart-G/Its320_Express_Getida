@@ -11,7 +11,7 @@ function Quotes(req, res) {
         .then(() => res.status(200).send('Quotes Successfully created.'))
         .catch(error => res.status(500).send('Error while creating User: ' + error.message));
 }
-
+// yesadawadwa
 async function getQuotes(req, res) {
     try {
         const quotes = await User.find();
